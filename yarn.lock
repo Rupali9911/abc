@@ -1608,14 +1608,15 @@
     glob "^7.1.3"
     logkitty "^0.7.1"
 
-"@react-native-community/cli-platform-android@^11.3.8":
-  version "11.3.8"
-  resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-11.3.8.tgz#ae4e3c22745dccb276d5b0dcbfe9cf51ad3149e5"
-  integrity sha512-hOLEPIKUE2i6/gdY4/UjCgv6i3MwU7uKml48TQYW9vv2ry95Wz7d/m6I4HDfDVfgo93rrBOd6wPbZIReaureNA==
+"@react-native-community/cli-platform-android@^12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-12.1.0.tgz#3c9881142c972271c405cad951fc7239a5821e53"
+  integrity sha512-7rrYOsuFBRYSFZThmvi08DWQydqchJAzX+B4fxmr5r2rJDhjr6JFG36FgdltkqWx9g7TXWw0R0Cs0CaGdzkRqg==
   dependencies:
-    "@react-native-community/cli-tools" "11.3.8"
+    "@react-native-community/cli-tools" "12.1.0"
     chalk "^4.1.2"
     execa "^5.0.0"
+    fast-xml-parser "^4.2.4"
     glob "^7.1.3"
     logkitty "^0.7.1"
 
@@ -1678,10 +1679,10 @@
     semver "^7.5.2"
     shell-quote "^1.7.3"
 
-"@react-native-community/cli-tools@11.3.8":
-  version "11.3.8"
-  resolved "https://registry.yarnpkg.com/@react-native-community/cli-tools/-/cli-tools-11.3.8.tgz#7de84286032a2fc826b06c64744a7c2b39a99ef4"
-  integrity sha512-O4bOnocCNcVfiAZ3r4jdRx088+jo8nz+47Z5MA06EValJVDAOZRblm3OFzI+oxKQiOA/QmR0+hFUtIIw2BxuYA==
+"@react-native-community/cli-tools@12.1.0":
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/cli-tools/-/cli-tools-12.1.0.tgz#c241ffdf6da3228f04ab6016b41d0c29c7f4829d"
+  integrity sha512-SNflRJSPXB8r4EMUNvCRyIXIPH13Bb3KOdkWtP6csu1P/81UQgPRfyAIOXTjwYjbvgeDgVBU6D17+aZjVJWx0g==
   dependencies:
     appdirsjs "^1.2.4"
     chalk "^4.1.2"
@@ -1692,6 +1693,7 @@
     ora "^5.4.1"
     semver "^7.5.2"
     shell-quote "^1.7.3"
+    sudo-prompt "^9.0.0"
 
 "@react-native-community/cli-types@11.3.7":
   version "11.3.7"
@@ -3337,7 +3339,7 @@ fast-levenshtein@^2.0.6:
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
   integrity sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==
 
-fast-xml-parser@^4.0.12:
+fast-xml-parser@^4.0.12, fast-xml-parser@^4.2.4:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-4.3.2.tgz#761e641260706d6e13251c4ef8e3f5694d4b0d79"
   integrity sha512-rmrXUXwbJedoXkStenj1kkljNF7ugn5ZjR9FJcwmCfcCbtOMDghPajbc+Tck6vE6F5XsDmx+Pr2le9fw8+pXBg==
